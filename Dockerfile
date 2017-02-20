@@ -19,4 +19,4 @@ COPY ./apache-log4j-extras-1.2.17.jar $CATALINA_BASE/lib/apache-log4j-extras.jar
 
 EXPOSE 2525 8080
 
-CMD /usr/share/tomcat7/bin/startup.sh && mb --allowCORS –allowInjection -–mock
+CMD /usr/share/tomcat7/bin/startup.sh && mb --allowCORS --allowInjection --mock
